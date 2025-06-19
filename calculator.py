@@ -27,7 +27,7 @@ def runit():
          num1 = int(input("Enter First Number: "))
          num2 = int(input("Enter Second Number: "))
      except ValueError:
-          print("Invalid number! Please enter Integers only.")
+          print("Invalid number! Please enter numbers only.")
           continue
    
      result = cal(num1,num2)
